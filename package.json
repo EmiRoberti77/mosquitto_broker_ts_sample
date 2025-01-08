@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:consumer": "ts-node ./src/consumer.ts",
+    "start:pub": "ts-node ./src/publisher.ts"
   },
   "keywords": [],
   "author": "",
